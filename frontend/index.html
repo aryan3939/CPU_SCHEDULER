@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CPU Scheduler</h1>
+        </header>
+        
+        <main>
+            <form id="scheduler-form">
+                <div id="values" >
+                    <label for="noOfProcess" class="boxes">No of Process: <input type="number" name="noOfProcess" placeholder="Enter Data"></label>
+                    <label for="quantumTime" class="boxes">Quantum Time:<input type="number" name="quantumTime" placeholder="Enter Data"></label>    
+                </div>
+                <div id="processes">
+                        <label style="margin-right: 90px;">Arrival Time </label>
+                        <label  style="margin-right: 101px;">Burst Time</label>
+                        <label  style="margin-right: 90px;">Priority</label>
+                    <div class="process">
+                        <!-- <label>Arrival Time: <input type="number" name="arrivalTime" placeholder="Enter Data"></label>
+                        <label>Burst Time: <input type="number" name="burstTime" placeholder="Enter Data"></label>
+                        <label>Priority: <input type="number" name="priority" placeholder="Enter Data"></label> -->
+                        <label><input type="number" name="arrivalTime" placeholder="Enter Data"></label>
+                        <label><input type="number" name="burstTime" placeholder="Enter Data"></label>
+                        <label><input type="number" name="priority" placeholder="Enter Data"></label>
+                    </div>
+                </div>
+            
+                <div class="button-section">
+                    <button type="submit" id="compareBtn">compare</button>
+                    <button type="button" id="add-process">Add Process</button>
+                    <!-- <button type="button" id="random">Random</button> -->
+                    <button type="reset" id="resetBtn">Reset</button>
+                </div>
+            </form>
+            
+            <div id="output" class=" out hidden"></div>
+        </main>
+
+
+        <footer>
+            <p><i>Made by Aryan</i></p>
+            <div class="social-links">
+                <a id="linedin" href="https://www.linkedin.com/in/aryan-kumar-59968b177/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a id="github" href="https://github.com/aryan3939" target="_blank"><img src="github.png" alt="GitHub"></a>
+                <a id="insta" href="https://instagram.com/aryan__3939" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
