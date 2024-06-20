@@ -1,10 +1,10 @@
 # CPU_SCHEDULER
 
-1. Overview
+# Overview
    
 This project aims to implement several CPU scheduling algorithms used in operating systems and provide a user-friendly frontend interface. The goal is to offer a comprehensive tool for visualizing and understanding different CPU scheduling techniques, including First-Come, First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling and Round Robin (RR) algorithm.
 
-2. Project Components
+# Project Components
 
 a. Backend Implementation
 
@@ -43,7 +43,7 @@ c. Backend-Frontend Integration
 Node.js with C++ addons is used to integrate the backend and frontend. The frontend sends HTTP requests to the server, which executes the C++ code and returns the results for display.
 
 
-3. Key Features and Enhancements
+# Key Features and Enhancements
    
 - Algorithm Comparison: Users can compare the performance of different algorithms side-by-side.
 - Best Algorithm Recommendation: The tool analyzes the results and recommends the best algorithm based on the lowest average waiting time and turnaround time.
@@ -51,7 +51,7 @@ Node.js with C++ addons is used to integrate the backend and frontend. The front
 - Dynamic Priority Adjustment: Users can adjust process priorities dynamically in the Priority Scheduling algorithm and see the immediate impact on scheduling.
 
 
-4. Algorithm Efficiency Analysis
+# Algorithm Efficiency Analysis
    
 Evaluation of Algorithms:
 
@@ -76,6 +76,6 @@ Round Robin (RR)
   - Disadvantages: Context switching can be costly.
 
 
-5. Conclusion and Future Directions
+# Conclusion and Future Directions
    
 The project successfully implemented and visualized various CPU scheduling algorithms through an integrated backend and frontend system. Future enhancements could include incorporating additional scheduling algorithms, refining the user interface, and further optimizing the performance of the backend-frontend integration.
