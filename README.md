@@ -33,7 +33,7 @@ To run the project, follow these steps:
 
 3. **Compile the C++ code**:
     ```sh
-    g++ -o backend/scheduler backend/algorithms/scheduler.cpp
+    g++ -o backend/scheduler backend/algorithms/schedular.cpp
     ```
     This command compiles the C++ code and generates an executable file named `scheduler` in the `backend` directory.
 
